@@ -15,7 +15,7 @@ Follow the exact commands used during development:
 ```bash
 
 # Clone the repository
-git clone [<your-repo-url>](https://github.com/gchkiran/data-security)
+git clone https://github.com/gchkiran/data-security
 
 # install miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
