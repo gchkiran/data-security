@@ -221,8 +221,8 @@ def federated_learning():
             best_accuracy = global_accuracy
             best_model = global_model
             # Save the best model (based on accuracy)
-            torch.save(best_model.state_dict(), "Level2_best.pth")
-            print("Best model saved as 'Level2_best.pth'.")
+            torch.save(best_model.state_dict(), "Level2.pth")
+            print("Best model saved as 'Level2.pth'.")
     print("Federated Learning finished!")
 
     return global_model
